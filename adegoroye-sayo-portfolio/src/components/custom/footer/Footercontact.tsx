@@ -34,7 +34,7 @@ const FooterContact = () => {
             <div className="flex flex-row gap-x-2 items-center">
               {Footercontactdata.map((item, index) => {
                 return (
-                  <div className=" rounded-sm p-1">
+                  <div className=" rounded-sm p-1" key={index}>
                     <a href={item.website} target="_blank">
                       <img src={item.icon} width="27" height="27" />
                     </a>

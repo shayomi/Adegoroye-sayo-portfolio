@@ -18,12 +18,12 @@ const About = () => {
               <Typography variant="h6">About Me</Typography>
 
               <Typography variant="h3" className="text-accent mt-4">
-                I'm Adegoroye Sayo, a seasoned frontend web developer and UI/UX
-                designer with four years of hands-on experience.
+                I&apos;m Adegoroye Sayo, a seasoned frontend web developer and
+                UI/UX designer with four years of hands-on experience.
               </Typography>
 
               <Typography variant="p">
-                Throughout my career, I've collaborated with leading
+                Throughout my career, I&apos;ve collaborated with leading
                 organizations like Techclout Africa, Run Technology, Nexapluxe,
                 and Future Africa, honing my skills in JavaScript, HTML/CSS,
                 React.js, Next.js, Tailwind CSS, TypeScript, and Node.js.
@@ -32,9 +32,9 @@ const About = () => {
               <Typography variant="p" className="styled-link">
                 My approach to design is rooted in user-centric principles,
                 utilizing tools like Webflow for rapid prototyping, wireframing,
-                and user testing. I'm passionate about ideation and iteration,
-                believing that effective design stems from thorough user
-                research and feedback-driven refinement.
+                and user testing. I&apos;m passionate about ideation and
+                iteration, believing that effective design stems from thorough
+                user research and feedback-driven refinement.
               </Typography>
             </div>
           </div>
