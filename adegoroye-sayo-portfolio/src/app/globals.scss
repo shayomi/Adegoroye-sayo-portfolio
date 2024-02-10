@@ -22,7 +22,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 47, 100%, 35%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -77,5 +77,41 @@
     background-image: url("../../public/images/home-bg.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.07);
+  }
+
+  .gray-card-shadow {
+    box-shadow: 0 8px 8px -3px rgba(29, 29, 29, 0.1);
+  }
+
+  .background-text {
+    @apply text-muted font-bold z-0;
+    color: rgba(29, 29, 29, 0.07);
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 3rem;
+      line-height: 4.5rem;
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
+      font-size: 4.5rem;
+      line-height: 4.5rem;
+    }
+  }
+
+  .styled-link a {
+    @apply text-accent;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #f00;
+    }
   }
 }

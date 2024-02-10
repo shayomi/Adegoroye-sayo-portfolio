@@ -1,9 +1,17 @@
-import Image from "next/image";
+import Hero from "@/components/custom/home/Hero";
+import About from "@/components/custom/home/About";
+import Service from "@/components/custom/home/Service";
+import Portfolio from "@/components/custom/home/Portfolio";
+import Contact from "@/components/custom/home/Contact";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h2> hello</h2>
+    <main className="px-6">
+      <Hero />
+      <About />
+      <Service />
+      <Portfolio />
+      <Contact />
     </main>
   );
 }
