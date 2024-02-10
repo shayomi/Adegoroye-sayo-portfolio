@@ -41,4 +41,10 @@ export const Portfoliodata = [
     website: "http://acceler8.africa",
     github: "https://github.com/shayomi",
   },
+  {
+    icon: "/images/adegoroye.png",
+    title: "Adegoroye's Portfolio",
+    website: "http://acceler8.africa",
+    github: "https://github.com/shayomi",
+  },
 ];

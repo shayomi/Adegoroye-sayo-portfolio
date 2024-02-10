@@ -41,7 +41,7 @@ const ContactForm = () => {
   });
 
   return (
-    <div>
+    <div className="mt-6">
       <Typography variant="h4" className="text-secondary font-bold">
         Send me a message
       </Typography>
