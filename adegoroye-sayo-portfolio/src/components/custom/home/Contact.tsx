@@ -5,7 +5,7 @@ import ContactForm from "./Contactform";
 
 const Contact = () => {
   return (
-    <section className="mt-24  ">
+    <section className="mt-24  " id="contact">
       <div className=" ">
         <h1 className="background-text">CONTACT</h1>
         <div className="flex flex-wrap sm:flex-nowrap gap-10 sm:gap-8 lg:gap-14 items-center">

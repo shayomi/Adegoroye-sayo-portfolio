@@ -2,7 +2,7 @@ import { Typography } from "@/components/ui/typography";
 
 const About = () => {
   return (
-    <section className="mt-24  ">
+    <section className="mt-24 " id="about">
       <div className=" ">
         <h1 className="background-text">ABOUT</h1>
         <div className="flex flex-wrap sm:flex-nowrap gap-10 sm:gap-8 lg:gap-14 items-center">

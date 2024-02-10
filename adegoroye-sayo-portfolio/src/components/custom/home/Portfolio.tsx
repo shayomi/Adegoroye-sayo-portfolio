@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Portfolio = () => {
   return (
-    <section className="mt-24 ">
+    <section className="mt-24 " id="portfolio">
       <h1 className="background-text">PORTFOLIO</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 sm:gap-6 lg:gap-4 xl:gap-6 mt-12 sm:mt-16">
         {Portfoliodata.map((item, index) => (
