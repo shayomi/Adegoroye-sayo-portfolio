@@ -1,19 +1,35 @@
+"use client";
+
 import { Typography } from "@/components/ui/typography";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/Variant";
 
 const About = () => {
   return (
-    <section className="mt-24 " id="about">
+    <motion.section className="mt-24 " id="about">
       <div className=" ">
         <h1 className="background-text">ABOUT</h1>
         <div className="flex flex-wrap sm:flex-nowrap gap-10 sm:gap-8 lg:gap-14 items-center">
-          <div className="basis-full sm:basis-6/12 ">
+          <motion.div
+            variants={fadeIn("right", "tween", 0.2, 0.8)}
+            initial="hidden"
+            whileInView={"show"}
+            exit={"show"}
+            className="basis-full sm:basis-6/12 "
+          >
             <img
               src="/images/about-image.png"
               alt="Home about image"
               className="w-full h-auto"
             />
-          </div>
-          <div className="basis-full sm:basis-6/12 sm:pr-8 ">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("left", "tween", 0.2, 0.8)}
+            initial="hidden"
+            whileInView={"show"}
+            exit={"show"}
+            className="basis-full sm:basis-6/12 sm:pr-8 "
+          >
             <div className="z-20 -mt-4">
               <Typography variant="h6">About Me</Typography>
 
@@ -37,10 +53,10 @@ const About = () => {
                 user research and feedback-driven refinement.
               </Typography>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

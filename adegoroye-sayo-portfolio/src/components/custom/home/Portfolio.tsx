@@ -1,14 +1,25 @@
+"use client";
+
 import { Typography } from "@/components/ui/typography";
 import { Portfoliodata } from "@/utils/data/Portfoliodata";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/Variant";
+import { transition1 } from "@/Transition";
 
 const Portfolio = () => {
   return (
-    <section className="mt-24 " id="portfolio">
+    <motion.section className="mt-24 " id="portfolio">
       <h1 className="background-text">PORTFOLIO</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 sm:gap-6 lg:gap-4 xl:gap-6 mt-12 sm:mt-16">
+      <motion.div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 sm:gap-6 lg:gap-4 xl:gap-x-6  xl:gap-y-12 mt-12 sm:mt-16">
         {Portfoliodata.map((item, index) => (
-          <div
+          <motion.div
+            variants={fadeIn("up", "tween", index * 0.2, 0.8)}
+            initial="hidden"
+            whileInView={"show"}
+            exit={"show"}
+            whileHover={{ scale: 1.05 }}
+            transition={transition1}
             key={index}
             className="bg-[#FBF2F0] gray-card-shadow px-2.5 py-5 sm:px-4 sm:py-6 text-center  rounded-lg"
           >
@@ -29,10 +40,10 @@ const Portfolio = () => {
                 <Button variant="secondary">Github</Button>
               </a>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 };
 

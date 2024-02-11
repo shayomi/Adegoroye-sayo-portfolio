@@ -1,13 +1,23 @@
+"use client";
+
 import React from "react";
 import { Typography } from "@/components/ui/typography";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/Variant";
 
 const Hero = () => {
   return (
-    <section className="section">
+    <motion.section className="section">
       <div className="  pt-6 flex items-center h-full">
         <div className="flex items-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8 w-full ">
-          <div className="basis-full sm:basis-1/2 order-last sm:order-first ">
+          <motion.div
+            variants={fadeIn("down", "tween", 0.2, 0.8)}
+            initial="hidden"
+            whileInView={"show"}
+            exit={"show"}
+            className="basis-full sm:basis-1/2 order-last sm:order-first "
+          >
             <div className="sm:max-w-lg">
               <div className="space-y-4 mb-8">
                 <Typography variant="p">Hi there</Typography>
@@ -45,13 +55,19 @@ const Hero = () => {
                 <Button size="lg">Lets Talk</Button>
               </a>
             </div>
-          </div>
-          <div className="basis-full sm:basis-6/12 flex sm:justify-end order-first sm:order-last">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("up", "tween", 0.2, 0.8)}
+            initial="hidden"
+            whileInView={"show"}
+            exit={"show"}
+            className="basis-full sm:basis-6/12 flex sm:justify-end order-first sm:order-last"
+          >
             <img className="w-full h-auto" src="/images/hero-img.png" />
-          </div>
+          </motion.div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
