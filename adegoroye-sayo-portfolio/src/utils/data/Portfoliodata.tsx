@@ -35,16 +35,4 @@ export const Portfoliodata = [
     website: "https://spinzbet.web.app/",
     github: "https://github.com/shayomi/Spinbet",
   },
-  {
-    icon: "/images/nitendo.png",
-    title: "Nintendo Clone Website",
-    website: "https://nintendocloneweb.web.app/",
-    github: "https://github.com/shayomi/Nintendo-clone",
-  },
-  {
-    icon: "/images/adegoroye.png",
-    title: "Adegoroye's Portfolio",
-    website: "https://adegoroyesayo.vercel.app/",
-    github: "https://github.com/shayomi/Adegoroye-sayo-portfolio",
-  },
 ];

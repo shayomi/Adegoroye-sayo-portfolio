@@ -6,8 +6,8 @@ import { Separator } from "@/components/ui/separator";
 
 const Footer = () => {
   return (
-    <section className="bg-[#1A1E25] mt-24">
-      <div className="pt-20">
+    <section className="bg-[#1A1E25] mt-24 ">
+      <div className="container pt-20">
         <div className="flex flex-col sm:flex-row gap-12 sm:gap-8 xl:gap-12 justify-evenly pb-12">
           <div className="sm:max-w-[220px] lg:max-w-[290px] xl:max-w-[350px]">
             <img
