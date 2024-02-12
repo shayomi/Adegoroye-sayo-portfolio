@@ -48,8 +48,8 @@ const Hero = () => {
               </div>
 
               <Typography variant="h5" className="max-w-[80%] mb-10 mt-4">
-                I'm here to elevate your business with enhanced creativity and a
-                strong digital footprint.
+                I&apos;m here to elevate your business with enhanced creativity
+                and a strong digital footprint.
               </Typography>
               <a href="#service">
                 <Button size="lg">Lets Talk</Button>
