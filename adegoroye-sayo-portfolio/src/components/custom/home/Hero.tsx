@@ -8,7 +8,7 @@ import { fadeIn } from "@/Variant";
 
 const Hero = () => {
   return (
-    <motion.section className="section">
+    <motion.section className="section mt-12">
       <div className="  pt-6 flex items-center h-full">
         <div className="flex items-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8 w-full ">
           <motion.div
@@ -48,10 +48,10 @@ const Hero = () => {
               </div>
 
               <Typography variant="h5" className="max-w-[80%] mb-10 mt-4">
-                I am here to give your business better creativity and digital
-                presence
+                I'm here to elevate your business with enhanced creativity and a
+                strong digital footprint.
               </Typography>
-              <a target="_blank">
+              <a href="#service">
                 <Button size="lg">Lets Talk</Button>
               </a>
             </div>

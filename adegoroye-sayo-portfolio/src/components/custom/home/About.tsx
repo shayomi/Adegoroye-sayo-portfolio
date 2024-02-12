@@ -3,6 +3,7 @@
 import { Typography } from "@/components/ui/typography";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/Variant";
+import { Button } from "@/components/ui/button";
 
 const About = () => {
   return (
@@ -53,6 +54,9 @@ const About = () => {
                 user research and feedback-driven refinement.
               </Typography>
             </div>
+            <a href="#service" className=" flex mt-6">
+              <Button size="lg">Lets Talk</Button>
+            </a>
           </motion.div>
         </div>
       </div>

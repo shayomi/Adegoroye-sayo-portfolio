@@ -1,4 +1,4 @@
-export const Portfoliodata = [
+export const Designdata = [
   {
     icon: "/images/accelerate-africa.png",
     title: "Accelerate Africa",
