@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://adegoroyesayo.com/"),
+  metadataBase: new URL("https://adegoroyesayo.vercel.app/"),
   title: {
     default: "Adegoroye sayo",
     template: "%s | Adegoroye sayo",
