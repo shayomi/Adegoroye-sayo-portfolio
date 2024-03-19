@@ -13,7 +13,7 @@ const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-white shadow-lg fixed z-10 w-full">
+    <nav className="bg-white shadow-lg w-full">
       <div className="container flex justify-between items-center py-3">
         <Link href="/">
           <Image
