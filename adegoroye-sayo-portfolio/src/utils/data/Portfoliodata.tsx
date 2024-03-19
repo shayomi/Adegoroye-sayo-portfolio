@@ -12,6 +12,12 @@ export const Portfoliodata = [
     github: "https://github.com/Savetown/savetown-website-fe",
   },
   {
+    icon: "/images/capitalstatefarm.png",
+    title: "Capital State Farm",
+    website: "https://capitalstatefarm.com",
+    github: "https://github.com/shayomi/capital-state-farm",
+  },
+  {
     icon: "/images/genteeecos.png",
     title: "Gentee Cosmestics",
     website: "https://genteecosmestics.web.app",

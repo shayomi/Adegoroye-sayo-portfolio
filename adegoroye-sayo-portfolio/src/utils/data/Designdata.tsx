@@ -19,23 +19,25 @@ export const Designdata = [
       "https://www.behance.net/gallery/164211483/UI-UX-CASE-STUDY-FOR-A-DELIVERY-MOBILE-APP",
     github: "",
   },
-  //   {
-  //     icon: "/images/fajob.png",
-  //     title: "Future Africa Job Search Page",
-  //     website: "https://nintendocloneweb.web.app/",
-  //   },
+  {
+    icon: "/images/capitalstatefarm.png",
+    title: "Capital State farm UI Design",
+    website:
+      "https://www.behance.net/gallery/194301901/Capital-Start-farm-website-UI-design",
+    github: "",
+  },
   {
     icon: "/images/nexaplus.png",
     title: "Nexapluse Website Design",
     website:
-      "https://www.figma.com/proto/KVBOlPRVJdLW0AJcldaHg1/website?page-id=0%3A1&type=design&node-id=1016-431&viewport=2738%2C589%2C0.18&t=Dh9gE2SwC45bvfR5-1&scaling=scale-down&starting-point-node-id=460%3A2&mode=design",
+      "https://www.behance.net/gallery/194303255/Nexapluse-Tech-Service-Landing-page",
     github: "",
   },
   {
     icon: "/images/david-cleaning.png",
-    title: "Cleaning service website Design",
+    title: "Onimoto Cleaning service website Design",
     website:
-      "https://www.figma.com/proto/az2BHdwrvcFt1BeBG7Mc1y/Job-Poster-Future-Africa?page-id=854%3A185&type=design&node-id=857-193&viewport=304%2C186%2C0.25&t=WvTxNeN3iSBPag00-1&scaling=scale-down&mode=design",
+      "https://www.behance.net/gallery/194303089/Onimoto-Cleaning-service",
     github: "",
   },
 ];
