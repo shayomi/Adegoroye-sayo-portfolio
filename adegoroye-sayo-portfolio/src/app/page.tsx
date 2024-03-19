@@ -6,7 +6,7 @@ import Contact from "@/components/custom/home/Contact";
 
 export default function Home() {
   return (
-    <main className="px-6 pt-24">
+    <main className="px-6 ">
       <Hero />
       <About />
       <Portfolio />
