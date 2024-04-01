@@ -19,7 +19,7 @@ export const Portfoliodata = [
   },
   {
     icon: "/images/genteeecos.png",
-    title: "Gentee Cosmestics",
+    title: "Gentee Cosmestics website",
     website: "https://genteecosmestics.vercel.app",
     github: "https://github.com/shayomi/makeup",
   },
