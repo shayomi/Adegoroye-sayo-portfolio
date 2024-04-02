@@ -1,5 +1,11 @@
 export const Portfoliodata = [
   {
+    icon: "/images/eventspace.png",
+    title: "Event Space website",
+    website: "http://eventspaces.vercel.app",
+    github: "https://github.com/shayomi/Eventspace",
+  },
+  {
     icon: "/images/accelerate-africa.png",
     title: "Accelerate Africa",
     website: "http://acceler8.africa",
