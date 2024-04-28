@@ -12,10 +12,10 @@ const About = () => {
         <h1 className="background-text">ABOUT</h1>
         <div className="flex flex-wrap sm:flex-nowrap gap-10 sm:gap-8 lg:gap-14 items-center">
           <motion.div
-            variants={fadeIn("right", "tween", 0.2, 0.8)}
-            initial="hidden"
-            whileInView={"show"}
-            exit={"show"}
+              variants={fadeIn("right", "tween", 0.2, 0.8)}
+              initial="hidden"
+              whileInView={"show"}
+              exit={"show"}
             className="basis-full sm:basis-6/12 "
           >
             <img

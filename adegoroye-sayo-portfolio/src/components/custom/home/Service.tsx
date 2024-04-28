@@ -72,7 +72,7 @@ const Service = () => {
               I offer expert frontend web development and UI/UX design
               solutions. Through user-centric design and innovative
               technologies, we create engaging web applications and prioritize
-              continuous improvement. Partner with us to elevate your digital
+              continuous improvement. Partner with me to elevate your digital
               presence and deliver exceptional user experiences.
             </Typography>
           </div>
