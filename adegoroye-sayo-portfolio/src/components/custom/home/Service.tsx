@@ -62,10 +62,10 @@ const Service = () => {
         >
           <div className="lg:max-w-[590px] lg:ml-auto z-20 -mt-4">
             <Typography variant="h4" className="text-accent mt-4">
-              I am passionate about leveraging technology and design to create
-              transformative digital experiences that resonate with audiences
-              and drive measurable outcomes. Contact me today to learn more
-              about how we can help bring your vision to life!
+              I am very passionate about leveraging technology and design to
+              create transformative digital experiences that resonate with
+              audiences and drive measurable outcomes. Contact me today to learn
+              more about how we can help bring your vision to life!
             </Typography>
 
             <Typography variant="p">
